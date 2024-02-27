@@ -1,13 +1,6 @@
 # Plantilla LaTeX para ECFM
 
-Esta plantilla LaTeX está diseñada específicamente para estudiantes y profesores de la Escuela de Ciencias Físicas y Matemáticas (ECFM) para facilitar la redacción de documentos académicos, incluyendo tesis, informes de laboratorio, y artículos de investigación. La plantilla incorpora las normas de formato académico de la ECFM y ofrece una amplia gama de comandos personalizados para mejorar la eficiencia de la escritura y la presentación del contenido matemático y científico.
-
-## Características
-
-- Formato predefinido que cumple con las directrices de la ECFM.
-- Comandos personalizados para notación matemática y científica.
-- Soporte para imágenes, tablas y figuras con posibilidad de personalización.
-- Integración con BibTeX para la gestión de referencias bibliográficas.
+Esta plantilla está diseñada para facilitar la redacción de notas de cursos.
 
 ## Inicio Rápido
 
@@ -16,24 +9,11 @@ Para comenzar a utilizar la plantilla, clona este repositorio y abre el archivo 
 ```bash
 git clone https://github.com/1u1s4/ECFM_notas.git
 ``````
-
-Ejemplo de uso básico:
-
-```latex
-\documentclass{mi_plantilla}
-\begin{document}
-\title{Tu Título Aquí}
-\author{Tu Nombre}
-
-\maketitle
-
-\section{Introducción}
-Este es el contenido de tu introducción.
-
-\end{document}
-```
-
 ## Cómo Usar
+
+### Manual
+
+En el repositorio existe `Manual/manual.pdf` que incluye una guía completa de la plantilla.
 
 ### Descarga e Instalación
 
@@ -48,9 +28,11 @@ git clone https://github.com/1u1s4/ECFM_notas.git
 La plantilla está organizada en varios archivos para facilitar su uso y personalización:
 
 - `mi_documento.tex`: Archivo principal que debes compilar.
-- `comandos.sty`: Contiene los comandos personalizados.
-- - `formato.sty`: Contiene los paquetes necesarios y estilos.
-- `/capitulos`: Directorio para los archivos de cada capítulo o sección.
+- `estilos/formato.sty`: Contiene los paquetes necesarios y estilos de formato.
+- `estilos/comandos.sty`: Contiene los comandos personalizados.
+- `caratula.tex`: Puedes incluir aquí la carátula de tu documento.
+- `capitulos/`: Directorio para los archivos de cada capítulo o sección.
+- `bib.tex`: Archivo para incluir tus referencias bibliográficas.
 
 ### Personalización
 
