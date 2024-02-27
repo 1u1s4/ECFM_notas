@@ -3,6 +3,12 @@
 \usepackage{estilos/formato}
 \usepackage{estilos/comandos}
 
+% cuando sea necesario citas textuales
+% \usepackage[backend=biber, style=authoryear]{biblatex}
+% \addbibresource{referencias.bib}
+
+\usepackage{hyperref}
+
 \begin{document}
 % caratula
 
@@ -12,7 +18,19 @@
 \tableofcontents
 \vspace*{1cm}
 
-% listado de capitulos, ejemplo:
-% \include{capitulos/capitulo_1.tex}
+\include{capitulos/capitulo_1.tex}
+
+\include{capitulos/capitulo_2.tex}
+
+\include{capitulos/capitulo_3.tex}
+
+\include{capitulos/capitulo_4.tex}
+
+\include{capitulos/capitulo_5.tex}
+
+\include{capitulos/capitulo_6.tex}
+
+% \printbibliography
+\include{bib.tex}
 
 \end{document}
