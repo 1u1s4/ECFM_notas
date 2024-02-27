@@ -13,13 +13,13 @@ Esta plantilla LaTeX está diseñada específicamente para estudiantes y profeso
 
 Para comenzar a utilizar la plantilla, clona este repositorio y abre el archivo `mi_documento.tex` con tu editor LaTeX favorito. 
 
-\```bash
+```bash
 git clone https://github.com/1u1s4/ECFM_notas.git
-\```
+``````
 
 Ejemplo de uso básico:
 
-\```latex
+```latex
 \documentclass{mi_plantilla}
 \begin{document}
 \title{Tu Título Aquí}
@@ -31,7 +31,7 @@ Ejemplo de uso básico:
 Este es el contenido de tu introducción.
 
 \end{document}
-\```
+```
 
 ## Cómo Usar
 
@@ -39,9 +39,9 @@ Este es el contenido de tu introducción.
 
 Puedes descargar la plantilla directamente como un archivo ZIP desde GitHub o clonar el repositorio utilizando el siguiente comando:
 
-\```bash
+```bash
 git clone https://github.com/1u1s4/ECFM_notas.git
-\```
+```
 
 ### Estructura de la Plantilla
 
@@ -49,6 +49,7 @@ La plantilla está organizada en varios archivos para facilitar su uso y persona
 
 - `mi_documento.tex`: Archivo principal que debes compilar.
 - `comandos.sty`: Contiene los comandos personalizados.
+- - `formato.sty`: Contiene los paquetes necesarios y estilos.
 - `/capitulos`: Directorio para los archivos de cada capítulo o sección.
 
 ### Personalización
